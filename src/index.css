@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-espresso: #21150F;
+    --color-chocolate: #3B2920;
+    --color-coffee: #60483B;
+    --color-cream: #E3D7CC;
+    --color-beige: #CBBBAE;
+    --color-caramel: #A77D60;
+    --color-honey: #C9A98D;
+    --color-ivory: #F4ECE5;
+    --color-muted-beige: #CFC0B5;
+  }
+
+  body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #21150F;
+    color: #F4ECE5;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom editorial styling */
+.font-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Atmospheric subtle noise & gradients */
+.hero-gradient {
+  background: radial-gradient(circle at 50% 25%, rgba(167, 125, 96, 0.18) 0%, rgba(96, 72, 59, 0.12) 40%, rgba(33, 21, 15, 0.95) 75%);
+}
+
+.warm-glow {
+  background: radial-gradient(circle, rgba(201, 169, 141, 0.15) 0%, rgba(33, 21, 15, 0) 70%);
+}
+
+/* Organic Arch shapes matching the Aurora Studio reference */
+.arch-top {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.arch-card {
+  border-top-left-radius: 120px;
+  border-top-right-radius: 120px;
+}
+
+/* Smooth transitions */
+* {
+  border-color: rgba(203, 187, 174, 0.15);
+}
